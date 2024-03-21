@@ -45,7 +45,12 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'social_django',
     'drf_social_oauth2',
+
+    'users',
+    'motorhomes',
 ]
+
+AUTH_USER_MODEL = 'users.User'
 
 AUTHENTICATION_BACKENDS = (
    # Facebook OAuth2
